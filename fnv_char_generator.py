@@ -2,7 +2,7 @@
 import random
 
 # total points available to allocate
-TOTAL_POINTS = 21
+TOTAL_POINTS = 33
 
 SPECIAL = {
     'Strength': 1,
@@ -61,7 +61,7 @@ while True:
 
 special = SPECIAL.copy()
 
-i = 33
+i = TOTAL_POINTS
 while i > 0:
     stat = random.choice(list(SPECIAL.keys()))
     special[stat] += 1
